@@ -1,8 +1,10 @@
-<footer class="py-3 py-md-5 bg-default">
+<footer class="py-3 bg-miniblue">
 	<div class="container-custom">
 		<div class="row">
 			<div class="col-md-12">
-				<p>&copy; {{ date("Y") }} {{ env("APP_NAME") }} | Todos los derechos reservados.</p>
+				<p class="text-center h2 text-blue fw-bold">
+					EIGHT FOLD WORLD 2022
+				</p>
 			</div>
 		</div>
 	</div>

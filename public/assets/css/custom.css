@@ -7,8 +7,12 @@
 /*=============================================================================
 GENERAL
 =============================================================================*/
-body { overflow-x: hidden; position: relative; }
+body { overflow-x: hidden; position: relative; font-family: 'Montserrat'; }
 html { overflow-x: hidden; }
+.monse{
+    font-family: 'Montserrat';
+}
+.text-blue{ color: #06354a;}
 *::-moz-selection { background: var(--color-blue-hard); color: #FFF; text-shadow: none; }
 *::selection { background: var(--color-blue-hard); color: #FFF; text-shadow: none; }
 .bg-default { background-color: #eee; border: 1px solid #ddd; }
@@ -30,6 +34,26 @@ NAVBAR
 	border: none;
 	border-radius: 0;
 }
+
+.social{
+    height: 150px;
+    background-color: #22433a;
+    background-image: url('../../assets/images/home/fondo_navbar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #808744;
+}
+.logo_nav{
+    height: 100px;
+}
+.icono_nav{
+    width: 60px;
+}
+.nav-link{
+    font-size: 20px;
+}
+
 /* colores items menu */
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -56,9 +80,15 @@ NAVBAR
 /*=============================================================================
 HOME
 =============================================================================*/
+
+
+
 /*=============================================================================
 FOOTER
 =============================================================================*/
+.bg-miniblue{
+	background-color: #a0b9ae;
+}
 /*=============================================================================
 BLOG
 =============================================================================*/

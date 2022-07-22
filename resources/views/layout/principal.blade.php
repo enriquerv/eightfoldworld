@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> {{ env('APP_NAME') }} | @yield('title') </title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         {{-- Bootstrap v5.0.1 --}}
         {{ Html::style("https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css", ["integrity"=>"sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x", "crossorigin"=>"anonymous"]) }}
         {{-- DataTables v1.10.19 --}}
@@ -19,6 +20,7 @@
         {{ Html::style( 'assets/css/core.css?'.filemtime('assets/css/core.css') ) }}
         {{-- Custom CSS file --}}
         {{ Html::style( 'assets/css/custom.css?'.filemtime('assets/css/custom.css') ) }}
+
         <script> direction = "{{ env("APP_URL") }}/" </script>
         @yield('styles')
     </head>
